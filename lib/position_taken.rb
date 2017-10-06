@@ -3,3 +3,4 @@ def position_taken?(board,index)
   if board[index] = " "
     "false"
 end
+position_taken([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
