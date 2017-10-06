@@ -3,5 +3,7 @@ def position_taken?(board,index)
   board[index]
   if board[index] == " "
     puts "false"
-
+  elsif board[index] == ""
+    puts "false"
+  end
 end
